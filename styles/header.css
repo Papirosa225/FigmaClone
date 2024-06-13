@@ -23,7 +23,7 @@ body {
   margin-right: 31px;
 }
 
-.header_nav a:hover{
+.header_nav a:hover {
   color: gray;
 }
 
@@ -43,7 +43,7 @@ body {
   width: 45%;
 }
 
-.header_texts-title{
+.header_texts-title {
   font-size: 80px;
   margin-bottom: 17px;
   font-family: RoboticMed;
@@ -65,8 +65,6 @@ body {
 .first_button {
   margin-right: 35px;
 }
-
-
 
 .header_image {
   margin-top: 35px;
