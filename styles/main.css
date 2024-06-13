@@ -1,0 +1,159 @@
+/* FEATURES */
+
+.main_features,
+.main_contents,
+.main_gallery,
+.main_partner {
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main_title,
+.main_subtitle {
+    color: white;
+    text-align: center;
+    font-family: RoboticLig;
+    font-weight: 400;
+}
+
+.main_title {
+    margin-top: 162px;
+    font-size: 52px;
+    margin-bottom: 27px;
+}
+
+.main_subtitle {
+    font-size: 20px;
+    width: 40%;
+    margin: 0;
+}
+
+.main_image {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.main_image ul {
+    margin: 0;
+    margin-top: 54px;
+    padding: 0;
+}
+
+.main_image ul li {
+    list-style-type: none;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.main_li_header {
+    display: flex;
+    align-items: center;
+    margin-bottom:  20px;
+    font-size: 20px;
+    font-family: RoboticMed;
+}
+
+.main_li_header img {
+    margin-right: 13px;
+}
+
+.main_li_footer {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 270px;
+    font-family: RoboticLig;
+}
+
+/* CONTENT */
+
+.main_contents {
+    margin-top: 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contents-title,
+.contents-subtitle {
+    text-align: center;
+    margin: 0;
+    font-family: RoboticLig;
+    font-weight: 400;
+}
+
+.contents-title  {
+    font-size: 52px;
+    margin-bottom: 10px;
+}
+
+.contents-subtitle {
+    font-size: 20px;
+    width: 38%;
+    margin-bottom: 44px;
+}
+
+.main__cards {
+    display: flex;
+    justify-content: center;
+}
+
+.main__card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    padding: 40px 35px;
+    height: 500px;
+}
+.main__card h1 {
+    margin: 0;
+    font-family: RoboticMed;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.main__card h5 {
+    margin: 0;
+    font-weight: 400;
+    font-family: RoboticLig;
+    text-align: center;
+    width: 270px;
+    margin-top: 30px;
+}
+
+.first {
+    margin-right: 33px;
+}
+
+/* Gallery */
+
+.gallery_block {
+    margin: 40px 44px;
+   display: flex;
+   justify-content: center;
+}
+
+.gallery_block img {
+    border-radius: 10px;
+    margin-right: 33px;
+}
+
+/* Partners */
+
+
+
+.partners_block img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 74px;
+}

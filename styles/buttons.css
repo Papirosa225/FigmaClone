@@ -1,0 +1,32 @@
+.primary,
+.secondary {
+  color: white;
+  font-family: RoboticMed;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.primary { 
+  background-color: #4452FE;
+  padding: 20px 40px;
+  border: none;
+}
+
+.primary:hover {
+  background-color: #0013ff;
+}
+
+.secondary:hover {
+  color: gray;
+  border-color: gray;
+}
+
+.secondary {
+  border: 1px solid white;
+  padding: 19px 40px;
+  background: transparent;
+}
+
+.main {
+  padding: 13.5px 46px;
+}
